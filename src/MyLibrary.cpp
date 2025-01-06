@@ -1,7 +1,5 @@
 #include "MyLibrary.h"
 
-#define PRINTER Serial
-
 MyLibrary::MyLibrary(int pin) {
   _pin = pin;
 }
