@@ -3,6 +3,7 @@
 
 #include "Arduino.h"
 
+#define PRINTER Serial
 #define LED_ON(pin) digitalWrite(pin, HIGH)
 #define LED_OFF(pin) digitalWrite(pin, LOW)
 
